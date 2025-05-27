@@ -5,28 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather app</title>
+    <link rel="stylesheet" href="src/style.css" />
 </head>
 
 <body>
-    <header>
-        <form>
-            <input type="text" placeholder="Enter a city..." required />
-            <input type="submit" value="Search" />
-        </form>
-    </header>
-    <main>
-        <div>
-            <h1>London</h1>
-            <p>Wednesday 12:29, moderate sunny <br />
-                Humidity:60% Wind:7km/h
-            </p>
+    <div class="weather-app">
+        <div class="weather-content">
+            <header>
+                <form class="search-city">
+                    <input type="text" placeholder="Enter a city..." required class="input-city" />
+                    <input type="submit" value="Search" class="search-button" />
+                </form>
+            </header>
+            <main>
+                <div class="weather-data">
+                    <div>
+                        <h1 class="current-city">London</h1>
+                        <p class="current-details">
+                            Wednesday 12:29, moderate sunny <br />
+                            <span class="humidity">Humidity:<strong>60%</strong></span> <span
+                                class="wind">Wind:<strong>7km/h</strong></span>
+                        </p>
+                    </div>
+                    <div class="weather-app-temperature">
+                        <div class="weather-app-icon">🌥 </div>
+                        <div class="current-temperature">14</div>
+                        <div class="weather-app-unit">ºC</div>
+                    </div>
+                </div>
+            </main>
+            <hr />
+            <footer>
+                <p>This project was coded by <a href="https://github.com/Ninz11">Nigesty Hagos</a>, hosted on <a
+                        href="https://github.com/Ninz11/weather-app-project">GitHub</a> and <a
+                        href="https://nowtiempo.netlify.app/">Netlify</a>
+                </p>
+            </footer>
         </div>
-        <div>🌥 14ºC</div>
-    </main>
-    <footer>
-        <p>This project was coded by Nigesty Hagos, hosted on GitHub and Netlify</p>
-    </footer>
-
+    </div>
 </body>
 
 </html>
