@@ -1,3 +1,9 @@
+body {
+  background-image: url("../image/pink-sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #bc807c;
+}
 .weather-app {
   max-width: 600px;
   margin: 50px auto;
@@ -39,11 +45,13 @@ main {
 .weather-data {
   display: flex;
   justify-content: space-between;
+  font-family: "prompt", sans-serif;
 }
 .current-city {
-  font-size: 50px;
-  margin: 0;
+  font-size: 60px;
+  margin: 33px 0 20px;
   line-height: 45px;
+  font-weight: 520;
 }
 .current-details {
   font-size: 15px;
@@ -53,7 +61,7 @@ main {
 .humidity,
 .wind {
   position: relative;
-  left: -17px;
+  left: -27px;
 }
 .current-details strong {
   color: #de1d30;
@@ -64,14 +72,15 @@ main {
 .current-temperature {
   font-size: 70px;
   font-weight: 400;
+  font-weight: 500;
 }
 .weather-app-icon {
   font-size: 40px;
-  margin-top: 13px;
+  margin-top: 21px;
 }
 .weather-app-unit {
-  font-size: 23px;
-  margin-top: 14px;
+  font-size: 21px;
+  margin-top: 21px;
 }
 hr {
   opacity: 0.5;
