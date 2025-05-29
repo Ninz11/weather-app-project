@@ -58,13 +58,10 @@ main {
   line-height: 22px;
   position: fixed;
 }
-.humidity,
-.wind {
-  position: relative;
-  left: -27px;
-}
+
 .current-details strong {
   color: #de1d30;
+  font-weight: 600;
 }
 .weather-app-temperature {
   display: flex;
