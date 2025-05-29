@@ -40,7 +40,7 @@ body {
 }
 main {
   padding: 23px 0;
-  margin: 21px 0 62px;
+  margin: 21px 0 50px;
 }
 .weather-data {
   display: flex;
@@ -96,4 +96,24 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+.weather-forecast {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+.forecast-day {
+  font-size: 17px;
+}
+.forecast-icon {
+  font-size: 20px;
+  margin: 6px 0;
+}
+.forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  color: #de1d30;
+}
+.forecast-temperature {
+  padding: 0 6px;
 }
